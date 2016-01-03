@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C4C833D1C38AABF0081E3D6 /* TakeFirstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4C833C1C38AABF0081E3D6 /* TakeFirstTests.swift */; };
+		0C4C83421C38AB210081E3D6 /* TakeFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4C83411C38AB210081E3D6 /* TakeFirst.swift */; };
 		70351DBE1C13C7A500781B3D /* Slicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70351DBD1C13C7A500781B3D /* Slicing.swift */; };
 		70351DC01C13CAC700781B3D /* HoppingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70351DBF1C13CAC700781B3D /* HoppingTests.swift */; };
 		707F996E1C13B9EA00CE1A23 /* SwiftSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 707F996D1C13B9EA00CE1A23 /* SwiftSequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -56,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C4C833C1C38AABF0081E3D6 /* TakeFirstTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeFirstTests.swift; sourceTree = "<group>"; };
+		0C4C83411C38AB210081E3D6 /* TakeFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TakeFirst.swift; path = Sources/TakeFirst.swift; sourceTree = SOURCE_ROOT; };
 		70351DBD1C13C7A500781B3D /* Slicing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Slicing.swift; path = Sources/Slicing.swift; sourceTree = SOURCE_ROOT; };
 		70351DBF1C13CAC700781B3D /* HoppingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoppingTests.swift; sourceTree = "<group>"; };
 		707F996A1C13B9EA00CE1A23 /* SwiftSequence.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSequence.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +155,7 @@
 				707F99901C13BA1900CE1A23 /* ScanReduce.swift */,
 				70351DBD1C13C7A500781B3D /* Slicing.swift */,
 				707F99911C13BA1900CE1A23 /* TakeDrop.swift */,
+				0C4C83411C38AB210081E3D6 /* TakeFirst.swift */,
 				707F99921C13BA1900CE1A23 /* Zip.swift */,
 				707F996D1C13B9EA00CE1A23 /* SwiftSequence.h */,
 				707F996F1C13B9EA00CE1A23 /* Info.plist */,
@@ -177,6 +182,7 @@
 				70CB76D31C13BFC0003A7461 /* PermutationsTests.swift */,
 				70CB76D41C13BFC0003A7461 /* ScanReduceTests.swift */,
 				70CB76D51C13BFC0003A7461 /* TakeDropTests.swift */,
+				0C4C833C1C38AABF0081E3D6 /* TakeFirstTests.swift */,
 				70CB76D61C13BFC0003A7461 /* TestHelpers.swift */,
 				70CB76D71C13BFC0003A7461 /* ZipTests.swift */,
 				707F997B1C13B9EB00CE1A23 /* Info.plist */,
@@ -296,6 +302,7 @@
 				707F99941C13BA1900CE1A23 /* ChunkWindowSplit.swift in Sources */,
 				70351DBE1C13C7A500781B3D /* Slicing.swift in Sources */,
 				707F99A01C13BA1900CE1A23 /* TakeDrop.swift in Sources */,
+				0C4C83421C38AB210081E3D6 /* TakeFirst.swift in Sources */,
 				707F99991C13BA1900CE1A23 /* FlatMap.swift in Sources */,
 				707F999C1C13BA1900CE1A23 /* Iterate.swift in Sources */,
 				707F999B1C13BA1900CE1A23 /* Interpose.swift in Sources */,
@@ -333,6 +340,7 @@
 				70CB76EA1C13BFD9003A7461 /* CombinationsTests.swift in Sources */,
 				70351DC01C13CAC700781B3D /* HoppingTests.swift in Sources */,
 				70CB76F71C13BFD9003A7461 /* ZipTests.swift in Sources */,
+				0C4C833D1C38AABF0081E3D6 /* TakeFirstTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
